@@ -1,0 +1,157 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{AB32E67D-2C3F-4F08-8A85-ED2C9BC9282F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Test</RootNamespace>
+    <AssemblyName>Test</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AlgorithmConbinationTest.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmBusyTipTest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmBusyTipTest.Designer.cs">
+      <DependentUpon>FrmBusyTipTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmComboBoxVirtualItemTest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmComboBoxVirtualItemTest.Designer.cs">
+      <DependentUpon>FrmComboBoxVirtualItemTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCommonSetTest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCommonSetTest.Designer.cs">
+      <DependentUpon>FrmCommonSetTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmFlexLabelTest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmFlexLabelTest.Designer.cs">
+      <DependentUpon>FrmFlexLabelTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmFlowLayoutPanelTest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmFlowLayoutPanelTest.Designer.cs">
+      <DependentUpon>FrmFlowLayoutPanelTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmBusyTipTest.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmBusyTipTest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmComboBoxVirtualItemTest.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmComboBoxVirtualItemTest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCommonSetTest.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmCommonSetTest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmFlexLabelTest.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmFlexLabelTest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmFlowLayoutPanelTest.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmFlowLayoutPanelTest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucControlTest1.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ucControlTest1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucControlTest2.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ucControlTest2.cs</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="QuickSortTest.cs" />
+    <Compile Include="ucControlTest1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucControlTest1.Designer.cs">
+      <DependentUpon>ucControlTest1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucControlTest2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucControlTest2.Designer.cs">
+      <DependentUpon>ucControlTest2.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CommonLibrary\CommonLibrary.csproj">
+      <Project>{719A8EE9-A22D-4849-BD57-B4A3ADD20D3B}</Project>
+      <Name>CommonLibrary</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

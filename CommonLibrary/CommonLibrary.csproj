@@ -1,0 +1,202 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{719A8EE9-A22D-4849-BD57-B4A3ADD20D3B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CommonLibrary</RootNamespace>
+    <AssemblyName>CommonLibrary</AssemblyName>
+    <StartupObject>
+    </StartupObject>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AlgorithmCombination.cs" />
+    <Compile Include="BusyTip\BusyTipOperator.cs" />
+    <Compile Include="BusyTip\EnumBusyTipOperatorState.cs" />
+    <Compile Include="Enumerators\ConvertEnumerator.cs" />
+    <Compile Include="Enumerators\ConvertEnumeratorProvider.cs" />
+    <Compile Include="ObjectCaches\EnumOperateAtExhaust.cs" />
+    <Compile Include="EventSource.cs" />
+    <Compile Include="ExtendedControl\ccThreeStateTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ExtendedControl\ccThreeStateTextBox.Designer.cs">
+      <DependentUpon>ccThreeStateTextBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExtendedControl\ccTSTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ExtendedControl\ccTSTextBox.designer.cs">
+      <DependentUpon>ccTSTextBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CommonImput\ListSelectItem.cs" />
+    <Compile Include="DebugAssist.cs" />
+    <Compile Include="CommonImput\EnumChooseItem.cs" />
+    <Compile Include="CommonImput\EnumImputItemLayoutStyle.cs" />
+    <Compile Include="EditPanel\EnumEditMode.cs" />
+    <Compile Include="EditPanel\IEditPanel.cs" />
+    <Compile Include="EditPanel\VirtualEditPanelBase.cs" />
+    <Compile Include="EnumInfo.cs" />
+    <Compile Include="ExtendedControl\ucColorSetting.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ExtendedControl\ucColorSetting.Designer.cs">
+      <DependentUpon>ucColorSetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExtendedControl\ucColorsSetting.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ExtendedControl\ucColorsSetting.Designer.cs">
+      <DependentUpon>ucColorsSetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExtendedControl\ucColorsSettingX.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ExtendedControl\ucColorsSettingX.Designer.cs">
+      <DependentUpon>ucColorsSettingX.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExTreeNode.cs" />
+    <Compile Include="Enumerators\FilterEnumerator.cs" />
+    <Compile Include="Enumerators\FilterEnumeratorProvider.cs" />
+    <Compile Include="ExtendedControl\FlexLabel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ExtendedControl\FlexLabel.designer.cs">
+      <DependentUpon>FlexLabel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BusyTip\FrmBusyTip.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BusyTip\FrmBusyTip.designer.cs">
+      <DependentUpon>FrmBusyTip.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CommonImput\FrmCommonSet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CommonImput\FrmCommonSet.Designer.cs">
+      <DependentUpon>FrmCommonSet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMonthCalendarDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMonthCalendarDialog.designer.cs">
+      <DependentUpon>FrmMonthCalendarDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Graphic.cs" />
+    <Compile Include="CommonImput\IPanelCommonSet.cs" />
+    <Compile Include="CommonImput\GroupLayoutSetting.cs" />
+    <Compile Include="CommonImput\IImputUnit.cs" />
+    <Compile Include="CommonImput\ImputUnitGroup.cs" />
+    <Compile Include="ObjectCaches\ObjectCacheFixed.cs" />
+    <Compile Include="ObjectCaches\ObjectCacheFixedThreadSafe.cs" />
+    <Compile Include="ObjectCaches\IObjectCache.cs" />
+    <Compile Include="Pair.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="ExtendedControl\ccTSTextBox.resx">
+      <DependentUpon>ccTSTextBox.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BusyTip\FrmBusyTip.resx">
+      <DependentUpon>FrmBusyTip.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CommonImput\FrmCommonSet.resx">
+      <DependentUpon>FrmCommonSet.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExtendedControl\ucColorSetting.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ucColorSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExtendedControl\ucColorsSetting.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ucColorsSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExtendedControl\ucColorsSettingX.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ucColorsSettingX.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMonthCalendarDialog.resx">
+      <DependentUpon>FrmMonthCalendarDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="QuickSort.cs" />
+    <Compile Include="SearchAlgorithm.cs" />
+    <Compile Include="SimpleEvent.cs" />
+    <Compile Include="Singleton.cs" />
+    <Compile Include="SqlBuilder.cs" />
+    <Compile Include="StringAssembler.cs" />
+    <Compile Include="CommonImput\TextImputItem.cs" />
+    <Compile Include="ExtendedControl\ToolStripStatusRollingLabel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TreeNodeHelper.cs" />
+    <Compile Include="ExtendedControl\TwoStateButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ExtendedControl\TwoStateButton.designer.cs">
+      <DependentUpon>TwoStateButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CommonImput\ucPanelCommonSetBase.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CommonImput\ValueImputItem.cs" />
+    <Compile Include="XList.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

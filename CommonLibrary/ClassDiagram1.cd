@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Font Name="SimSun" Size="9" />
+  <Class Name="CommonLibrary.CommonImput.TextImputItem" Collapsed="true">
+    <Position X="0.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>CommonImput\TextImputItem.cs</FileName>
+      <HashCode>AAAAAAAAAgAAAAAAAAAAAAQAAQAAAAAAAAAgAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CommonLibrary.CommonImput.ValueImputItem&lt;T&gt;" Collapsed="true">
+    <Position X="2.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>CommonImput\ValueImputItem.cs</FileName>
+      <HashCode>AAAAAAAAAgAAAAAAAAAAAAQAAQAAAAAAAAAgAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CommonLibrary.CommonImput.EnumChooseItem" Collapsed="true">
+    <Position X="4" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>CommonImput\EnumChooseItem.cs</FileName>
+      <HashCode>AACAAAAAAggAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CommonLibrary.CommonImput.GroupLayoutSetting" Collapsed="true">
+    <Position X="8.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>CommonImput\GroupLayoutSetting.cs</FileName>
+      <HashCode>AAAIADAAAAAAAAAAgAAAAAAAAEAAAAAAAQAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CommonLibrary.CommonImput.FrmCommonSet" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>CommonImput\FrmCommonSet.cs</FileName>
+      <HashCode>AAQIAQAQACAAFAIACAKARgECEAIAAABoAIAAEAEAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CommonLibrary.CommonImput.ucPanelCommonSetBase" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>CommonImput\ucPanelCommonSetBase.cs</FileName>
+      <HashCode>AAADAKAAACAAgEAIAAABAAAAAIAEAAAAAAAKAAAEAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CommonLibrary.CommonImput.ImputUnitGroup" Collapsed="true">
+    <Position X="7.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>CommonImput\ImputUnitGroup.cs</FileName>
+      <HashCode>AACAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CommonLibrary.CommonImput.ListSelectItem&lt;T&gt;" Collapsed="true">
+    <Position X="5.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>CommonImput\ListSelectItem.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CommonLibrary.ExtendedControl.ucColorsSetting" Collapsed="true">
+    <Position X="5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>ExtendedControl\ucColorsSetting.cs</FileName>
+      <HashCode>AAAAAAAAACAAAAAAAACAAAACAIAAAQCEAAAAAAABAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CommonLibrary.ExtendedControl.ucColorsSettingX" Collapsed="true">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>ExtendedControl\ucColorsSettingX.cs</FileName>
+      <HashCode>AAgAAAFAADAACAAJAACAAAACgAAAABQAAAAAgABAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CommonLibrary.ObjectCaches.ObjectCacheFiexedThreadSafe&lt;T&gt;">
+    <Position X="3.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>ObjectCaches\ObjectCacheFixedThreadSafe.cs</FileName>
+      <HashCode>EAAAAAAgACoAAAAAAAAAAAECBEEgAAAAQAAAABAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="CommonLibrary.CommonImput.IPanelCommonSet" Collapsed="true">
+    <Position X="2.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>CommonImput\IPanelCommonSet.cs</FileName>
+      <HashCode>AAACAKAAACAAgEAAAAABAAAAAAAEAAAAAAAIAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="CommonLibrary.CommonImput.IImputUnit" Collapsed="true">
+    <Position X="4" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>CommonImput\IImputUnit.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="CommonLibrary.ObjectCaches.IObjectCache&lt;T&gt;">
+    <Position X="3.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>ObjectCaches\IObjectCache.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAQAAAABAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="CommonLibrary.CommonImput.EnumImputItemLayoutStyle" Collapsed="true">
+    <Position X="10.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>CommonImput\EnumImputItemLayoutStyle.cs</FileName>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAAAAAAAAASAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="CommonLibrary.EnumOperateAtExhaust">
+    <Position X="5.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>ObjectCaches\EnumOperateAtExhaust.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIgAAAAAAACAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+</ClassDiagram>
